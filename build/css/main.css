@@ -113,7 +113,92 @@ table {
   -webkit-align-self: flex-start;
           align-self: flex-start; }
 
+.goal__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
 .experience__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.education__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.education__description-text {
+  padding: 10px 0px; }
+
+.languages__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.skills__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.skills__item-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+          justify-content: space-around; }
+
+.personality__title-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.personality__item-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+          justify-content: space-around; }
+
+.hobbies__title-text {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
