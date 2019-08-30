@@ -61,10 +61,10 @@ table {
      -moz-box-direction: normal;
           flex-direction: column;
   background: #fff;
-  margin: 40px;
+  margin: 50px 150px;
   padding: 20px;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px 2px #666;
           box-shadow: 0px 0px 10px 2px #666; }
 
@@ -97,64 +97,25 @@ table {
           flex-direction: column;
   padding: 10px 30px; }
 
+.title-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-self: flex-start;
+          align-self: flex-start; }
+
+.title-style {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
 .header__name {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
-.social__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
-.goal__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
-.experience__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
-.education__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
+  font-size: 45px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .education__description-text {
   padding: 10px 0px; }
-
-.languages__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
-.skills__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
 
 .skills__item-wrap {
   width: 100%;
@@ -173,14 +134,6 @@ table {
   -webkit-justify-content: space-around;
           justify-content: space-around; }
 
-.personality__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
-
 .personality__item-wrap {
   width: 100%;
   display: -webkit-box;
@@ -197,11 +150,3 @@ table {
           flex-wrap: wrap;
   -webkit-justify-content: space-around;
           justify-content: space-around; }
-
-.hobbies__title-text {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-align-self: flex-start;
-          align-self: flex-start; }
