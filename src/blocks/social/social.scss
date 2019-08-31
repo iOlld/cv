@@ -1,0 +1,32 @@
+.social__item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social__link{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #676262;
+
+    &:hover{
+        // color: #2cb8a4;
+        color: #2290a1;
+        // color: #0e34869e;
+        // color: #625f9b;
+        // border: 1px solid #676262;
+        // padding: 3px;
+        // background: red;
+    }
+
+}
+
+.icon-style{
+    padding: 0px 7px;
+}
