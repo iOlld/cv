@@ -184,7 +184,8 @@ section {
   padding: 0px 7px; }
 
 .experience__link-work {
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 5px 0px; }
   .experience__link-work:hover {
     color: #2290a1; }
 
