@@ -78,6 +78,22 @@ table {
   -webkit-box-shadow: 0px 0px 10px 2px #666;
           box-shadow: 0px 0px 10px 2px #666; }
 
+.left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+          align-items: flex-start; }
+
 .center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -185,7 +201,8 @@ section {
 
 .experience__link-work {
   text-decoration: none;
-  margin: 7px 0px; }
+  margin: 10px 0px;
+  width: 255px; }
   .experience__link-work:hover {
     color: #2290a1; }
 
