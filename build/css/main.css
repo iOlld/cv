@@ -183,6 +183,11 @@ section {
 .icon-style {
   padding: 0px 7px; }
 
+.experience__link-work {
+  text-decoration: none; }
+  .experience__link-work:hover {
+    color: #2290a1; }
+
 .education__description-text {
   padding: 10px 0px; }
 
