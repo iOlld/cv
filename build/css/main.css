@@ -199,10 +199,11 @@ section {
 .icon-style {
   padding: 0px 7px; }
 
+.experience__link-wrap {
+  margin: 10px 0px; }
+
 .experience__link-work {
-  text-decoration: none;
-  margin: 10px 0px;
-  width: 255px; }
+  text-decoration: none; }
   .experience__link-work:hover {
     color: #2290a1; }
 
