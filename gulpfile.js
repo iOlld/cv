@@ -117,7 +117,7 @@ gulp.task('server', function () {
       baseDir: paths.dirs.build
     },
     reloadOnRestart: true,
-    tunnel: 'remote'
+    // tunnel: 'remote'
   });
   gulp.watch(paths.html.watch, gulp.parallel('templates'));
   gulp.watch(paths.css.watch, gulp.parallel('styles'));
